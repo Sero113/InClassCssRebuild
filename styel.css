@@ -1,0 +1,188 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+height: 8vh;
+display: flex;
+justify-content: space-around;
+background-color: pink;
+
+}
+
+.logo{
+    margin-top: 5px;
+color: white;
+margin-right: 600px;
+}
+
+.nav ol{
+display: flex;
+justify-content: space-around;
+width: 20%;
+margin-top: 15px;
+}
+
+.nav ol li{
+text-decoration: none;
+list-style: none;
+
+
+}
+
+.nav ol li a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+
+}
+
+.header{
+background-image: url(img/header.jpeg);
+background-size: cover;
+height: 100vh;
+}
+
+.box{
+display: block;
+border: solid white 5px;
+background-color: rgba(154, 152, 152, 0.2);
+height: 300;
+width: 500px;
+position: relative;
+top: 100;
+left: 300;
+}
+
+.box h1{
+margin-top: 40px;
+margin-left: 30px;
+}
+
+.box p{
+    margin-top: 10px;
+    margin-left: 30px;
+    }
+
+.box button{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.flex{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 15px;
+height: 20vh;
+}
+
+.flex div{
+align-items: center;
+justify-content: center;
+}
+
+.box1{
+border: solid pink 5px;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.box2{
+ border: solid pink 5px;
+ text-align: center;
+ }
+
+.box3{
+    border: solid pink 5px;
+    text-align: center;
+ }
+.box4{
+border: solid pink 5px;
+text-align: center;
+}
+
+
+.box1 h1{
+    text-align: left;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    }
+    
+.box2 h1{
+    text-align: left;
+ background-color: red;
+ }
+
+.box3 h1 {
+    text-align: left;
+    background-color: red;
+ }
+.box4 h1{
+    text-align: left;
+background-color: red;
+}
+
+.main{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 18px;
+padding: 1vh;
+margin: 4px;
+}
+
+.main p{
+font-size: 25;
+letter-spacing: 1px;
+}
+
+.footer{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+background-color: black;
+grid-gap: 20px;
+height: 40vh;;
+}
+
+.footer div{
+
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 20px;
+ text-align: center;
+}
+
+.footer p{
+font-size: 20px;
+}
+
+.fbox1{
+background-color: white;
+height: 30vh;
+}
+
+.fbox2{
+background-color: white;
+}
+
+.fbox3{
+background-color: white;
+}
+
+.fbox1 h1{
+    background-color: red;
+    }
+    
+    .fbox2 h1{
+    background-color: red;
+    }
+    
+    .fbox3 h1{
+    background-color: red;
+    }
+
+
